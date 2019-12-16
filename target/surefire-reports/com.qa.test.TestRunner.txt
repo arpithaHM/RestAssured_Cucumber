@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.test.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.542 s <<< FAILURE! - in com.qa.test.TestRunner
+Then I should get the "Content-Type" as "application/json"(| Content-Type | application/json |)  Time elapsed: 0.005 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<application/json[; charset=utf-8]> but was:<application/json[]>
+
+| Content-Type | application/json |  Time elapsed: 0.006 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<application/json[; charset=utf-8]> but was:<application/json[]>
+

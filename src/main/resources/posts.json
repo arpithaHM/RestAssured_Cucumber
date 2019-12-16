@@ -1,0 +1,6 @@
+{
+  "userId": 11,
+  "id": 101,
+  "title": "Test the post request with the given Json Payload",
+  "body": "Test the post request and validate tif the post is successful and created in the response"
+}
