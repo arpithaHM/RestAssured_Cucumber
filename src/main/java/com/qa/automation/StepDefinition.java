@@ -20,7 +20,7 @@ public class StepDefinition {
     utils utils = new utils();
 
     @Given("^I perform GET operation for \"([^\"]*)\"$")
-    public void iPerformGETOperationFor(String url) {
+    public void iPerformGETOperationFor(String url) throws IOException  {
         response =  utils.getResponse(url);
     }
 
