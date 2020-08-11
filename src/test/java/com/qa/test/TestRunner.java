@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 
-// this is test runner class
+// this is test runner java class
 
 
 @CucumberOptions(
