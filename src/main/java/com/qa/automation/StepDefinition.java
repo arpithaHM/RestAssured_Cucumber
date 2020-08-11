@@ -19,8 +19,11 @@ public class StepDefinition {
     public static Response response = null;
     utils utils = new utils();
 
+/**
+java doc -> adding exception
+**/
     @Given("^I perform GET operation for \"([^\"]*)\"$")
-    public void iPerformGETOperationFor(String url) throws fileNotFoundException{
+    public void iPerformGETOperationFor(String url) throws IOException  {
         response =  utils.getResponse(url);
     }
 
